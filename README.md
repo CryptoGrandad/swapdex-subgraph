@@ -1,6 +1,6 @@
-# Uniswap V2 Subgraph
+# Swapdex Subgraph
 
-[Uniswap](https://uniswap.org/) is a decentralized protocol for automated token exchange on Ethereum.
+[Swapdex](https://swapdex.net/) is a decentralized protocol for automated token exchange on Ethereum.
 
 This subgraph dynamically tracks any pair created by the uniswap factory. It tracks of the current state of Uniswap contracts, and contains derived stats for things like historical data and USD prices.
 
@@ -20,7 +20,7 @@ Below are a few ways to show how to query the uniswap-subgraph for data. The que
 
 ## Key Entity Overviews
 
-#### UniswapFactory
+#### SwapdexFactory
 
 Contains data across all of Uniswap V2. This entity tracks important things like total liquidity (in ETH and USD, see below), all time volume, transaction count, number of pairs and more.
 
@@ -42,13 +42,13 @@ These contain specifc information about a transaction. Things like which pair tr
 
 ## Example Queries
 
-### Querying Aggregated Uniswap Data
+### Querying Aggregated Swapdex Data
 
 This query fetches aggredated data from all uniswap pairs and tokens, to give a view into how much activity is happening within the whole protocol.
 
 ```graphql
 {
-  uniswapFactories(first: 1) {
+  swapdexFactories(first: 1) {
     pairCount
     totalVolumeUSD
     totalLiquidityUSD
