@@ -3,13 +3,13 @@
 [Swapdex](https://swapdex.net/) DECENTRALISED FINANCE IS THE FUTURE
 Decentralised Exchanges, In-House & P2P Loans, Staking and Stablecoins, DeFi all in one place!
 
-This subgraph dynamically tracks any pair created by the uniswap factory. It tracks of the current state of Uniswap contracts, and contains derived stats for things like historical data and USD prices.
+This subgraph dynamically tracks any pair created by the Swapdex factory. It tracks of the current state of Swapdex contracts, and contains derived stats for things like historical data and USD prices.
 
 - aggregated data across pairs and tokens,
 - data on individual pairs and tokens,
 - data on transactions
 - data on liquidity providers
-- historical data on Uniswap, pairs or tokens, aggregated by day
+- historical data on Swapdex, pairs or tokens, aggregated by day
 
 ## Running Locally
 
@@ -23,7 +23,7 @@ Below are a few ways to show how to query the uniswap-subgraph for data. The que
 
 #### SwapdexFactory
 
-Contains data across all of Uniswap V2. This entity tracks important things like total liquidity (in ETH and USD, see below), all time volume, transaction count, number of pairs and more.
+Contains data across all of Swapdex. This entity tracks important things like total liquidity (in ETH and USD, see below), all time volume, transaction count, number of pairs and more.
 
 #### Token
 
@@ -35,7 +35,7 @@ Contains data on a specific pair.
 
 #### Transaction
 
-Every transaction on Uniswap is stored. Each transaction contains an array of mints, burns, and swaps that occured within it.
+Every transaction on Swapdex is stored. Each transaction contains an array of mints, burns, and swaps that occured within it.
 
 #### Mint, Burn, Swap
 
