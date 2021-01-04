@@ -1,6 +1,7 @@
 # Swapdex Subgraph
 
-[Swapdex](https://swapdex.net/) is a decentralized protocol for automated token exchange on Ethereum.
+[Swapdex](https://swapdex.net/) DECENTRALISED FINANCE IS THE FUTURE
+Decentralised Exchanges, In-House & P2P Loans, Staking and Stablecoins, DeFi all in one place!
 
 This subgraph dynamically tracks any pair created by the uniswap factory. It tracks of the current state of Uniswap contracts, and contains derived stats for things like historical data and USD prices.
 
